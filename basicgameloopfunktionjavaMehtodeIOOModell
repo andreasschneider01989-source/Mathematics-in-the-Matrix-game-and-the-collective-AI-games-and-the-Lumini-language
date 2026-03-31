@@ -1,0 +1,14 @@
+	// Java Code Methoden Compilierbares Update für das Input, Operation, Outputmodells: String -> String
+	public String inputToOutput(String input, String operation) {
+		System.out.println("public String inputToOutput(String input, String operation) {");
+		System.out.println("String Input = "+input);
+		System.out.println("String operation = "+operation);
+		System.out.println("Date and Time bzw. Raumzeitkoordinaten und Weiteres: ");
+		String output=input;
+		if(operation.equals("replace0-"))output=input.replace('0', '-');
+		if(operation.equals("replace1|"))output=input.replace('1', '|');
+		if(operation.equals("replace-0"))output=input.replace('-', '0');
+		if(operation.equals("replace|1"))output=input.replace('|', '1');
+		// Weiterer Code, entropie, veränderung, zufall und kausalität und die kollektive Formelsammlung für das Matrixgame
+		return output;
+	}
